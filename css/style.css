@@ -1,0 +1,177 @@
+@font-face{
+    src:url(../fonts/inconsolata-light.ttf);
+    src:url(../fonts/playfairDisplay-regular.ttf);
+    src:url(../fonts/playfairDisplay-bold.ttf);
+    src:url(../fonts/playfairDisplay-black.ttf);
+    src:url(../fonts/ubuntu-light.ttf);
+}
+
+/* Css variables */
+:root{
+    --t--color:#333333;
+    --l--color:#000000;
+    --f--size:30px;
+    --f--family:'playfair display';
+    --l--family:'inconsolata-light';
+    --u--family:'ununtu-light';
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: var(--f--family);
+}
+
+
+
+
+nav{
+    display: flex;
+    margin-bottom:60px;
+    justify-content: space-between;
+    background:#afafaf;
+}
+nav .icon{
+    display: none;
+    cursor: pointer;
+}
+nav .logo{
+    font-size: var(--f--size);
+    font-family: var(--l--family);
+    color: var(--l--color);
+}
+nav .menu{
+    width:40%;
+    
+}
+nav .menu ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding:10px 0;
+    justify-content: space-between;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--t--color);
+    font-size: 14px;
+}
+
+.minimo img{
+    width:100%;
+}
+.wrapper{
+    padding:80px 100px;
+}
+span{
+    font-family: var(--u--family);
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#b4ad9e;
+}
+p{
+    font-size: 20px;
+}
+.wrapper h1{
+    margin:23px 0 30px 0;
+    color:var(--t--color);
+    font-size: var(--f--size);
+}
+.wrapper span{
+    margin-top:80px;
+}
+.image{
+    margin-bottom:23px;
+}
+.image img{
+    width:100%;
+}
+h2{
+    margin:23px 0 30px 0;
+    color:var(--t--color);
+}
+.news{
+    display: flex;
+    justify-content: center;
+    padding:80px 0;
+    background:#f0f0f0;
+}
+.form{
+    border-bottom:1px solid var(--l--color);
+}
+.form form{
+    position:relative;
+    padding-bottom:10px;
+}
+form button{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:0;
+    border:none;
+    background:transparent;
+}
+.form h3{
+    margin:0 0 60px 0;
+    font-size: var(--f--size);
+}
+.form form input{
+    font-size: 18px;
+    width:80%;
+    border:none;
+    outline:none;
+    background:transparent;
+}
+::placeholder{
+    font-family: var(--f--family);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding:80px 0 160px 0;
+}
+.button2{
+    border:1px solid var(--t--color);
+}
+.button2 button{
+    padding:12px 30px;
+    font-size: 1.4rem;
+    font-family: var(--f--family);
+    border:none;
+    background:transparent;
+    cursor: pointer;
+}
+footer{
+    background:#f0f0f0;
+}
+.last, .last2{
+    padding:30px 0;
+}
+.last ul{
+    display: flex;
+    gap:15px;
+    margin:0;
+}
+.last ul li a{
+    font-family: var(--f--family);
+    font-weight: 600;
+    /* font-size: 16px; */
+    text-decoration: none;
+    color: var(--t--color);
+}
+.last2{
+    display: flex;
+    justify-content: end;
+    gap:10px;
+}
+.last2 span{
+    color: var(--l--color);
+    font-weight: 600;
+    margin-top:6px;
+}
+.last2 a {
+    color:#000000;
+    text-decoration: none;
+    font-size: 20px;
+}

@@ -1,0 +1,187 @@
+@media (min-width:768px) and (max-width:991px){
+    nav{
+        padding:30px 0;
+    }
+    nav .logo{
+        font-size: 27px;
+    }
+    nav .menu{
+        width:60%;
+    }
+    .menu ul li a{
+        font-size: 13px;
+    }
+    .wrapper{
+        padding:50px 60px;
+    }
+    span{
+        font-size: 13px;
+    }
+    .wrapper h1{
+        margin:20px 0 25px 0;
+        font-size: 27px;
+    }
+    h2{
+        margin:20px 0 27px 0;
+    }
+    p{
+        font-size: 19px;
+    }
+    /* and  */
+    .news{
+        padding:60px 0;
+    }
+    .form form{
+        position:relative;
+        padding-bottom:9px;
+    }
+    .form h3{
+        margin:0 0 50px 0;
+        font-size: 27px;
+    }
+    .form form input{
+        font-size: 17px;
+    /* and  */
+    }
+    .button{
+        padding:50px 0 100px 0;
+    }
+    .button2 button{
+        padding:10px 28px;
+        font-size: 1.2rem;
+    }
+    
+}
+@media (min-width:576px) and (max-width:767px){
+    nav{
+        padding:20px 0;
+    }
+    nav .logo{
+        font-size: 22px;
+    }
+    nav .menu{
+        display: none;
+    }
+    nav .icon{
+        display: block;
+    }
+    
+    .menu ul li a{
+        font-size: 13px;
+    }
+    .wrapper{
+        padding:50px 40px;
+    }
+    span{
+        font-size: 12px;
+    }
+    .wrapper h1{
+        margin:20px 0 25px 0;
+        font-size: 23px;
+    }
+    h2{
+        margin:20px 0 25px 0;
+    }
+    p{
+        font-size: 18px;
+    }
+    .news{
+        padding:50px 0;
+    }
+    .form form{
+        position:relative;
+        padding-bottom:8px;
+    }
+    .form h3{
+        margin:0 0 40px 0;
+        font-size: 23px;
+    }
+    .form form input{
+        font-size: 17px;
+    }
+    .button{
+        padding:35px 0 85px 0;
+    }
+    .button2 button{
+        padding:8px 25px;
+        font-size: 1.2rem;
+    }
+    .last, .last2{
+        padding:15px 0;
+    }
+    .last ul{
+        justify-content: center;
+    }
+    .last2{
+        justify-content: center;
+        padding-top:0;
+    }
+    .last2 a {
+        font-size: 18px;
+    }
+}
+@media (max-width:575px){
+    nav{
+        padding:15px 0;
+    }
+    nav .logo{
+        font-size: 18px;
+    }
+    nav .menu{
+        display: none;
+    }
+    nav .icon{
+        display: block;
+    }
+    .wrapper{
+        padding:20px 30px;
+    }
+    span{
+        font-size: 10px;
+    }
+    .wrapper h1{
+        margin:15px 0 20px 0;
+        font-size: 23px;
+    }
+    h2{
+        margin:15px 0 20px 0;
+    }
+    p{
+        font-size: 16px;
+    }
+    .news{
+        padding:40px 0;
+    }
+    .form form{
+        position:relative;
+        padding-bottom:9px;
+    }
+    .form h3{
+        margin:0 0 40px 0;
+        font-size: 23px;
+    }
+    .form form input{
+        font-size: 16px;
+    }
+    .button{
+        padding:25px 0 60px 0;
+    }
+    .button2 button{
+        padding:6px 20px;
+        font-size: 1rem;
+    }
+    .last, .last2{
+        padding:15px 0;
+    }
+    .last ul{
+        justify-content: center;
+    }
+    .last2{
+        justify-content: center;
+        padding-top:0;
+    }
+    .last2 a {
+        font-size: 16px;
+    }
+}
+
